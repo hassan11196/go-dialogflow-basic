@@ -75,9 +75,7 @@ func main() {
 		// response,_ := DetectIntentText(os.Getenv("PROJECT_ID"),121542, string(message),"en-US")
 		// fmt.Println(response)
 		var jsonStr = []byte(`{
-			"contexts": [
-			  "shop"
-			],
+			
 			"lang": "en",
 			"query": `+  string(message) +`,
 			"sessionId": "12345",
